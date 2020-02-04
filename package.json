@@ -2,11 +2,13 @@
   "name": "phaser-socketio",
   "version": "1.0.0",
   "scripts": {
-    "start": "node server.js",
+    "start": "nodemon ./server.js",
     "pretty": "pretty-quick"
   },
   "dependencies": {
     "express": "^4.17.1",
+    "nodemon": "^2.0.2",
+    "phaser": "^3.22.0",
     "socket.io": "^2.3.0"
   },
   "devDependencies": {
